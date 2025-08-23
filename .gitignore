@@ -1,8 +1,5 @@
 __pycache__/
-.env
 .venv
-.python-version
-uv.lock
-CLAUDE.md
+.claude
 course_content.txt
 fastmcp_docs.txt

@@ -24,12 +24,17 @@ Database schema resource demonstrating MCP resources functionality.
 
 ![Resources Server Demo](3_resources_mcp_server/demo.png)
 
+### 4. Prompts Server (`4_prompts_mcp_server/`)
+Code review prompt template demonstrating MCP prompts functionality.
+
+![Prompts Server Demo](4_prompts_mcp_server/demo.png)
+
 ## Key Concepts
 
 - **Tools**: LLM decides when to call tools autonomously
-- **Resources**: User provides resources to LLM manually (via ➕ button)
-- **Resources are static** - no input parameters (unlike tools)
-- **Resource templates** - support input parameters for dynamic resources
+- **Resources**: User provides static content to LLM manually (via ➕ button)
+- **Prompts**: User provides templated instructions to LLM (via ➕ button)
+- **Resources are static** - no input parameters, **Prompts are dynamic** - accept parameters
 - **Read-only database connections** - safer for resources to prevent accidental modifications
 
 ## Technical Notes
