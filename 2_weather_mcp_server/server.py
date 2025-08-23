@@ -1,7 +1,8 @@
-from fastmcp import FastMCP
 import httpx
+from fastmcp import FastMCP
 
 mcp = FastMCP(name="weather-server")
+
 
 @mcp.tool
 def get_weather(latitude: float, longitude: float) -> dict:
@@ -12,7 +13,7 @@ def get_weather(latitude: float, longitude: float) -> dict:
             "longitude": longitude,
             "current": [
                 "temperature_2m",
-                "relative_humidity_2m", 
+                "relative_humidity_2m",
                 "apparent_temperature",
                 "is_day",
                 "precipitation",
@@ -20,19 +21,19 @@ def get_weather(latitude: float, longitude: float) -> dict:
                 "wind_speed_10m",
             ],
             "wind_speed_unit": "mph",
-            "temperature_unit": "fahrenheit", 
+            "temperature_unit": "fahrenheit",
             "precipitation_unit": "inch",
         }
 
         url = "https://api.open-meteo.com/v1/forecast"
-        
+
         with httpx.Client() as client:
             response = client.get(url, params=params)
             response.raise_for_status()
             data = response.json()
-            
+
         current = data["current"]
-        
+
         return {
             "temperature": {
                 "current": current["temperature_2m"],
@@ -59,6 +60,7 @@ def get_weather(latitude: float, longitude: float) -> dict:
         }
     except Exception as error:
         return {"error": f"Error fetching weather data: {str(error)}"}
+
 
 if __name__ == "__main__":
     mcp.run()
