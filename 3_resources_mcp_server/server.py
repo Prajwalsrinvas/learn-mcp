@@ -12,8 +12,8 @@ mcp = FastMCP("issues-server", version="1.0.0")
 @mcp.resource("schema://database")
 async def database_schema() -> str:
     """Register the database schema resource"""
-    # Assuming database.sqlite is in the same directory as this script
-    db_path = Path(__file__).parent / "database.sqlite"
+    # Use the database from the mcp-issue-tracker backend
+    db_path = Path(__file__).parent.parent / "mcp-issue-tracker" / "backend" / "database.sqlite"
 
     if not db_path.exists():
         raise FileNotFoundError(f"Database file not found at {db_path}")

@@ -57,3 +57,11 @@
 - **Course Position**: Completed "Jobs Based Tools", ready for advanced topics
 - **Next Sections**: Streamable HTTP, Server-side Events, Vibe Coding
 - **Pattern**: Follow same structure, convert JS examples to Python using FastMCP
+
+## Advanced Topics Completed ✅
+
+### SSEs & Streaming HTTP
+**Server-Side Events (SSEs)** were an initial approach for remote MCP servers, allowing clients to connect to HTTP endpoints for real-time communication. However, SSEs were quickly deprecated in favor of **Streamable HTTP**, which provides superior capabilities: resumable sessions with UUIDs, single endpoint management, and stateless server architecture for better scalability. Streamable HTTP enables production-ready remote MCP deployments while maintaining the real-time communication benefits.
+
+### Vibe Coding  
+**"Vibe Coding"** represents supervised agent development where you direct AI coding assistants enhanced by MCP servers. Key integrations include: **GitHub MCP** (workflow management, issue creation, PR generation), **Neon MCP** (database operations, schema management), **Playwright MCP** (UI testing, browser automation), and **Context7** (up-to-date documentation). This approach combines human oversight with AI capability, enabling full development workflows from requirements to deployment using tools like Claude Code, Cursor, and Windsurf.
