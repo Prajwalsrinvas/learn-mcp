@@ -49,16 +49,25 @@ Demonstrates **Job-based vs API-based** MCP server approaches with a working iss
 
 **Demo Screenshots:**
 
-*API-Based Server (15+ generic tools):*  
-<img src="5_issues_mcp_server/demo1.png" alt="API-Based Tools" width="50%">
+<table>
+<tr>
+<td width="33%" valign="top">
+<em>API-Based Server (15+ generic tools):</em><br><br>
+<img src="5_issues_mcp_server/demo1.png" alt="API-Based Tools" width="100%">
+</td>
+<td width="33%" valign="top">
+<em>Job-Based Server (6 focused tools):</em><br><br>
+<img src="5_issues_mcp_server/demo2.png" alt="Job-Based Tools" width="100%">
+</td>
+<td width="33%" valign="top">
+<em>Issues server UI:</em><br><br>
+<img src="5_issues_mcp_server/demo3.png" alt="Design Pattern Comparison" width="100%">
+</td>
+</tr>
+</table>
 
-*Job-Based Server (6 focused tools):*
-<img src="5_issues_mcp_server/demo2.png" alt="Job-Based Tools" width="50%">
-
-*Issues server UI*
-<img src="5_issues_mcp_server/demo3.png" alt="Design Pattern Comparison" width="50%">
-
-## Project Structure
+<details>
+<summary><strong>📁 Project Structure</strong></summary>
 
 ```
 learn-mcp/
@@ -96,6 +105,8 @@ learn-mcp/
 └── fastmcp_docs.txt               # FastMCP documentation
 ```
 
+</details>
+
 ## Quick Start
 
 1. **Install dependencies**:
@@ -110,7 +121,7 @@ learn-mcp/
    npx @modelcontextprotocol/inspector .venv/bin/python 1_addition_mcp_server/server.py
    ```
 
-3. **Add to Claude Desktop** (see [FastMCP docs](https://gofastmcp.com/integrations/claude-desktop.md))
+3. **Add to Claude Desktop** (see [FastMCP docs](https://gofastmcp.com/integrations/claude-desktop))
 
 ## Key Learnings
 
