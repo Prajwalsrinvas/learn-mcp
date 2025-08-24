@@ -1,0 +1,51 @@
+{
+  "2409.16314v1": {
+    "title": "Definition of Cybernetical Neuroscience",
+    "authors": [
+      "Alexander Fradkov"
+    ],
+    "summary": "A new scientific field is introduced and discussed, named cybernetical\nneuroscience, which studies mathematical models adopted in computational\nneuroscience by methods of cybernetics -- the science of control and\ncommunication in a living organism, machine and society. It also considers the\npractical application of the results obtained when studying mathematical\nmodels. The main tasks and methods, as well as some results of cybernetic\nneuroscience are considered.",
+    "pdf_url": "http://arxiv.org/pdf/2409.16314v1",
+    "published": "2024-09-14"
+  },
+  "1412.5909v2": {
+    "title": "Teaching Computational Neuroscience",
+    "authors": [
+      "P\u00e9ter \u00c9rdi"
+    ],
+    "summary": "The problems and beauty of teaching computational neuroscience are discussed\nby reviewing three new textbooks.",
+    "pdf_url": "http://arxiv.org/pdf/1412.5909v2",
+    "published": "2014-12-18"
+  },
+  "2506.03145v1": {
+    "title": "Entity-Augmented Neuroscience Knowledge Retrieval Using Ontology and Semantic Understanding Capability of LLM",
+    "authors": [
+      "Pralaypati Ta",
+      "Sriram Venkatesaperumal",
+      "Keerthi Ram",
+      "Mohanasankar Sivaprakasam"
+    ],
+    "summary": "Neuroscience research publications encompass a vast wealth of knowledge.\nAccurately retrieving existing information and discovering new insights from\nthis extensive literature is essential for advancing the field. However, when\nknowledge is dispersed across multiple sources, current state-of-the-art\nretrieval methods often struggle to extract the necessary information. A\nknowledge graph (KG) can integrate and link knowledge from multiple sources,\nbut existing methods for constructing KGs in neuroscience often rely on labeled\ndata and require domain expertise. Acquiring large-scale, labeled data for a\nspecialized area like neuroscience presents significant challenges. This work\nproposes novel methods for constructing KG from unlabeled large-scale\nneuroscience research corpus utilizing large language models (LLM),\nneuroscience ontology, and text embeddings. We analyze the semantic relevance\nof neuroscience text segments identified by LLM for building the knowledge\ngraph. We also introduce an entity-augmented information retrieval algorithm to\nextract knowledge from the KG. Several experiments were conducted to evaluate\nthe proposed approaches, and the results demonstrate that our methods\nsignificantly enhance knowledge discovery from the unlabeled neuroscience\nresearch corpus. It achieves an F1 score of 0.84 for entity extraction, and the\nknowledge obtained from the KG improves answers to over 54% of the questions.",
+    "pdf_url": "http://arxiv.org/pdf/2506.03145v1",
+    "published": "2025-06-03"
+  },
+  "2212.04195v2": {
+    "title": "A Paradigm Shift in Neuroscience Driven by Big Data: State of art, Challenges, and Proof of Concept",
+    "authors": [
+      "Zi-Xuan Zhou",
+      "Xi-Nian Zuo"
+    ],
+    "summary": "A recent editorial in Nature noted that cognitive neuroscience is at a\ncrossroads where it is a thorny issue to reliably reveal brain-behavior\nassociations. This commentary sketches a big data science way out for cognitive\nneuroscience, namely population neuroscience. In terms of design, analysis, and\ninterpretations, population neuroscience research takes the design control to\nan unprecedented level, greatly expands the dimensions of the data analysis\nspace, and paves a paradigm shift for exploring mechanisms on brain-behavior\nassociations.",
+    "pdf_url": "http://arxiv.org/pdf/2212.04195v2",
+    "published": "2022-12-08"
+  },
+  "1605.01905v1": {
+    "title": "What can topology tell us about the neural code?",
+    "authors": [
+      "Carina Curto"
+    ],
+    "summary": "Neuroscience is undergoing a period of rapid experimental progress and\nexpansion. New mathematical tools, previously unknown in the neuroscience\ncommunity, are now being used to tackle fundamental questions and analyze\nemerging data sets. Consistent with this trend, the last decade has seen an\nuptick in the use of topological ideas and methods in neuroscience. In this\ntalk I will survey recent applications of topology in neuroscience, and explain\nwhy topology is an especially natural tool for understanding neural codes.\nNote: This is a write-up of my talk for the Current Events Bulletin, held at\nthe 2016 Joint Math Meetings in Seattle, WA.",
+    "pdf_url": "http://arxiv.org/pdf/1605.01905v1",
+    "published": "2016-05-06"
+  }
+}

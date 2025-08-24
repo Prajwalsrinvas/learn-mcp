@@ -1,0 +1,31 @@
+{
+  "2405.09285v1": {
+    "title": "Positional Knowledge is All You Need: Position-induced Transformer (PiT) for Operator Learning",
+    "authors": [
+      "Junfeng Chen",
+      "Kailiang Wu"
+    ],
+    "summary": "Operator learning for Partial Differential Equations (PDEs) is rapidly\nemerging as a promising approach for surrogate modeling of intricate systems.\nTransformers with the self-attention mechanism$\\unicode{x2013}$a powerful tool\noriginally designed for natural language processing$\\unicode{x2013}$have\nrecently been adapted for operator learning. However, they confront challenges,\nincluding high computational demands and limited interpretability. This raises\na critical question: Is there a more efficient attention mechanism for\nTransformer-based operator learning? This paper proposes the Position-induced\nTransformer (PiT), built on an innovative position-attention mechanism, which\ndemonstrates significant advantages over the classical self-attention in\noperator learning. Position-attention draws inspiration from numerical methods\nfor PDEs. Different from self-attention, position-attention is induced by only\nthe spatial interrelations of sampling positions for input functions of the\noperators, and does not rely on the input function values themselves, thereby\ngreatly boosting efficiency. PiT exhibits superior performance over current\nstate-of-the-art neural operators in a variety of complex operator learning\ntasks across diverse PDE benchmarks. Additionally, PiT possesses an enhanced\ndiscretization convergence feature, compared to the widely-used Fourier neural\noperator.",
+    "pdf_url": "http://arxiv.org/pdf/2405.09285v1",
+    "published": "2024-05-15"
+  },
+  "2503.05840v2": {
+    "title": "Slim attention: cut your context memory in half without loss -- K-cache is all you need for MHA",
+    "authors": [
+      "Nils Graef",
+      "Andrew Wasielewski"
+    ],
+    "summary": "Slim attention shrinks the context memory size by 2x for transformer models\nwith MHA (multi-head attention), which can speed up inference by up to 2x for\nlarge context windows.\n  Slim attention is an exact, mathematically identical implementation of the\nstandard attention mechanism and therefore doesn't compromise model accuracy.\nIn other words, slim attention losslessly compresses the context memory by a\nfactor of 2.\n  For encoder-decoder transformers, the context memory size can be reduced even\nfurther: For the Whisper models for example, slim attention reduces the context\nmemory by 8x, which can speed up token generation by 5x for batch size 64 for\nexample.\n  And for the T5-11B model for example, the memory can be reduced by 32x\nbecause its MHA projection dimension is larger than the embedding dimension.\n  See https://github.com/OpenMachine-ai/transformer-tricks for code and more\ntransformer tricks, and https://www.youtube.com/watch?v=uVtk3B6YO4Y for this\npaper's YouTube video.",
+    "pdf_url": "http://arxiv.org/pdf/2503.05840v2",
+    "published": "2025-03-07"
+  },
+  "2501.09166v1": {
+    "title": "Attention is All You Need Until You Need Retention",
+    "authors": [
+      "M. Murat Yaslioglu"
+    ],
+    "summary": "This work introduces a novel Retention Layer mechanism for Transformer based\narchitectures, addressing their inherent lack of intrinsic retention\ncapabilities. Unlike human cognition, which can encode and dynamically recall\nsymbolic templates, Generative Pretrained Transformers rely solely on fixed\npretrained weights and ephemeral context windows, limiting their adaptability.\nThe proposed Retention Layer incorporates a persistent memory module capable of\nreal time data population, dynamic recall, and guided output generation. This\nenhancement allows models to store, update, and reuse observed patterns across\nsessions, enabling incremental learning and bridging the gap between static\npretraining and dynamic, context sensitive adaptation. The Retention Layer\ndesign parallels social learning processes, encompassing attention, retention,\nreproduction, and motivation stages. Technically, it integrates a memory\nattention mechanism and episodic buffers to manage memory scalability, mitigate\noverfitting, and ensure efficient recall. Applications span adaptive personal\nassistants, real time fraud detection, autonomous robotics, content moderation,\nand healthcare diagnostics. In each domain, the retention mechanism enables\nsystems to learn incrementally, personalize outputs, and respond to evolving\nreal world challenges effectively. By emulating key aspects of human learning,\nthis retention enhanced architecture fosters a more fluid and responsive AI\nparadigm, paving the way for dynamic, session aware models that extend the\ncapabilities of traditional Transformers into domains requiring continual\nadaptation.",
+    "pdf_url": "http://arxiv.org/pdf/2501.09166v1",
+    "published": "2025-01-15"
+  }
+}
