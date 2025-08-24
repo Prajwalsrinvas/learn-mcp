@@ -131,10 +131,9 @@ learn-mcp/
 
 **Real Integration**: All servers work with Claude Desktop, Cursor, and other MCP clients.
 
-## Resources
+## Key Learning Outcomes 📈
 
-- 🎓 **[MCP Course](https://mcp.holt.courses)** - Complete learning guide  
-- 📝 **[FastMCP Docs](https://gofastmcp.com)** - Python MCP framework
-- 📦 **[FastMCP GitHub](https://github.com/jlowin/fastmcp)** - Source code
-- 🔍 **[MCP Inspector](https://github.com/modelcontextprotocol/inspector)** - Interactive testing tool
-- 🌐 **[MCP Specification](https://modelcontextprotocol.io)** - Official protocol docs
+- **MCP Fundamentals**: Understand Tools, Resources, Prompts, and core MCP concepts
+- **Design Patterns**: Learn job-based vs API-based approaches for optimal LLM success  
+- **FastMCP Mastery**: Master the high-level Python framework for rapid MCP development
+- **Real Integration**: Build servers that work with Claude Desktop, Cursor, and other MCP clients
