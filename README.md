@@ -59,11 +59,18 @@ Holt course content with Python FastMCP implementations
 - Real working examples with screenshots
 
 ### [DeepLearning.AI MCP Course](deeplearning_ai_short_course/)
-Advanced MCP concepts and production patterns  
+Advanced MCP concepts and production patterns
 - Progressive learning: Chatbot → Server → Client → Multi-Server → Production
 - Building complete MCP ecosystems
 - Remote deployment and Docker containerization
 - Integration with multiple reference servers
+
+### [Build AI Apps with MCP Servers: Working with Box Files](build_ai_apps_with_mcp_servers_working_with_box_files/)
+Practical MCP integration with cloud storage and multi-agent systems
+- Document processing with Box cloud storage integration
+- Google ADK agent framework and A2A protocol
+- Multi-agent orchestration patterns
+- Enterprise-ready document workflow automation
 
 ## Quick Start 🚀
 
